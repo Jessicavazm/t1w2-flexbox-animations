@@ -55,6 +55,11 @@ nav a {
     border-radius: 15%;
 }
 
+nav a:hover {
+    background-color: var(--orange);
+    color: black;
+}
+
 .training-option {
     margin-top: 15dvw;
     background-color: var(--orange);
@@ -76,12 +81,16 @@ nav a {
         gap: 20px;
     }
 
+    nav a {
+        font-size: 1.5rem;
+    }
+
      .training-option {
         margin-top: 5dvw;
     }
 
     .training-option img {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 }
