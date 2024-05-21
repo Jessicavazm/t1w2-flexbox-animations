@@ -58,6 +58,8 @@ nav a {
 nav a:hover {
     background-color: var(--orange);
     color: black;
+    animation-name: change-color;
+    animation-duration: 2s;
 }
 
 .training-option {
@@ -79,6 +81,11 @@ nav a:hover {
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+   @keyframes change-color {
+    from {background-color: red;}
+    to {background-color: yellow;}
     }
 
     nav a {
